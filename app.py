@@ -566,7 +566,6 @@ with chart_tabs[2]:
         density_kg_m3=density_si,
         viscosity_pa_s=viscosity_si,
         roughness_m=roughness_si,
-        unit_system=unit_system,
         flow_unit=flow_unit_label,
         head_unit=head_unit_label,
         q_scale=q_disp_scale,
