@@ -570,7 +570,7 @@ with chart_tabs[2]:
         flow_unit=flow_unit_label,
         head_unit=head_unit_label,
         q_scale=q_disp_scale,
-        hf_scale=hf_disp_scale,
+        head_scale=hf_disp_scale,
     )
     st.plotly_chart(fig_hf, use_container_width=True)
 
