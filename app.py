@@ -1,4 +1,24 @@
-"""
+# =============================================================================
+# AI-ASSISTED DEVELOPMENT DOCUMENTATION
+# =============================================================================
+# AI tools used:
+# - ChatGPT
+# - Google Gemini
+#
+# Key prompts used:
+# 1. "Build a general-purpose Streamlit fluid flow engineering calculator
+#    with Reynolds number, friction factor, pressure drop and head loss."
+# 2. "Add interactive sidebar controls, Plotly visualizations and a Pandas
+#    results table to the Streamlit engineering application."
+# 3. "Add engineering validation, error handling, unit conversion and
+#    engineering interpretation to the fluid flow calculator."
+#
+# Most important manual fix/verification:
+# - I manually verified the engineering calculations, input validation,
+#   unit conversions and deployment errors. During deployment, I identified
+#   and corrected a function-name mismatch between app.py and
+#   visualizations.py involving plot_moody_diagram.
+# ============================================================================="""
 Gifty Fluidflow Engineer
 General Fluid Mechanics & Fluid Flow Engineering Calculator
 Main Python Streamlit Application Entry Point
@@ -34,7 +54,7 @@ from unit_conversion import UnitConverter
 from validation import validate_fluid_flow_inputs
 from visualizations import (
     plot_pressure_drop_vs_flow_rate,
-    plot_moody_diagram,
+    plot_moody_friction_factor_chart,
     plot_head_loss_vs_flow_rate,
 )
 from ai_assistant import (
