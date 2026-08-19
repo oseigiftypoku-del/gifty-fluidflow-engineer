@@ -547,7 +547,7 @@ with chart_tabs[0]:
     st.plotly_chart(fig_dp, use_container_width=True)
 
 with chart_tabs[1]:
-    fig_moody = plot_moody_diagram(
+    fig_moody = plot_moody_friction_factor_chart(
         current_re=reynolds,
         current_f=darcy_f,
         current_rel_roughness=relative_roughness,
