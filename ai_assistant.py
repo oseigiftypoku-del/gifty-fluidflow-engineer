@@ -1,4 +1,24 @@
-"""
+# =============================================================================
+# AI-ASSISTED DEVELOPMENT DOCUMENTATION
+# =============================================================================
+# AI tools used:
+# - ChatGPT
+# - Google Gemini
+#
+# Key prompts used:
+# 1. "Build a general-purpose Streamlit fluid flow engineering calculator
+#    with Reynolds number, friction factor, pressure drop and head loss."
+# 2. "Add interactive sidebar controls, Plotly visualizations and a Pandas
+#    results table to the Streamlit engineering application."
+# 3. "Add engineering validation, error handling, unit conversion and
+#    engineering interpretation to the fluid flow calculator."
+#
+# Most important manual fix/verification:
+# - I manually verified the engineering calculations, input validation,
+#   unit conversions and deployment errors. During deployment, I identified
+#   and corrected a function-name mismatch between app.py and
+#   visualizations.py involving plot_moody_diagram.
+# ============================================================================="""
 Gifty Fluidflow Engineer - AI Engineering Assistant (Google Gemini)
 Provides AI-assisted physical explanations of fluid mechanics calculation results
 using the official Google GenAI / Gemini Python SDK with reliable analytical fallback.
