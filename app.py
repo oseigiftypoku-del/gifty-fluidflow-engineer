@@ -58,10 +58,7 @@ from visualizations import (
     plot_moody_friction_factor_chart,
     plot_head_loss_vs_flow_rate,
 )
-from ai_assistant import (
-    generate_engineering_explanation,
-    get_gemini_api_key,
-)
+
 
 # -----------------------------------------------------------------------------
 # 1. PAGE CONFIGURATION & STYLING
