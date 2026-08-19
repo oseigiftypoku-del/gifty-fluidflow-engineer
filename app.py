@@ -72,8 +72,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.markdown(
-    """
+st.markdown("""
     <style>
     .main-title {
         font-family: 'Georgia', serif;
@@ -92,8 +91,7 @@ st.markdown(
         font-weight: 600;
     }
     </style>
-    """,
-    unsafe_allow_html=True,
+    """,unsafe_allow_html=True,
 )
 
 # -----------------------------------------------------------------------------
